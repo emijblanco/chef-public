@@ -1,0 +1,144 @@
+footer {
+    padding: 65px 0 10px;
+    background-color: #231f20;
+    position: relative;
+    color: #ffffff;
+    display: block; }
+    @media screen and (max-width: 780px) {
+      footer {
+        padding: 25px 0 74px; } }
+    footer .mobile-p {
+      display: none; }
+      @media screen and (max-width: 780px) {
+        footer .mobile-p {
+          display: block; } }
+    footer .flex-end {
+      text-align: right;
+      display: flex;
+      justify-content: flex-end;
+      width: 25%; }
+      @media screen and (max-width: 780px) {
+        footer .flex-end {
+          width: 100%;
+          justify-content: space-between; } }
+      footer .flex-end .row-mobile {
+        display: flex;
+        flex-direction: column; }
+        @media screen and (max-width: 780px) {
+          footer .flex-end .row-mobile {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%; } }
+      footer .flex-end li span {
+        color: #ffffff; }
+      footer .flex-end .line-social {
+        text-decoration: underline; }
+    footer .flex-start {
+      width: 75%;
+      float: left;
+      display: flex;
+      margin-bottom: 0; }
+      @media screen and (max-width: 780px) {
+        footer .flex-start {
+          width: 100%;
+          float: none;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 25px; } }
+      footer .flex-start .row {
+        margin-bottom: 0;
+        display: flex; }
+        @media screen and (max-width: 780px) {
+          footer .flex-start .row {
+            display: flex;
+            margin-bottom: 40px; } }
+    footer .column-footer {
+      width: 25%;
+      text-align: right; }
+      @media screen and (max-width: 780px) {
+        footer .column-footer {
+          width: 120px; } }
+    footer .column-none {
+      display: block; }
+      @media screen and (max-width: 780px) {
+        footer .column-none {
+          display: none; } }
+    footer .column-mobile {
+      display: none; }
+      @media screen and (max-width: 780px) {
+        footer .column-mobile {
+          display: block; } }
+    footer .flex-row {
+      width: 58%;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: space-between; }
+      @media screen and (max-width: 780px) {
+        footer .flex-row {
+          display: none; } }
+      footer .flex-row p {
+        display: inline;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0; }
+      footer .flex-row span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-right: 6px; }
+      footer .flex-row .check {
+        margin-right: 21px;
+        color: #ffffff;
+        display: inline-block;
+        width: 12px;
+        height: 12px; }
+    footer .row {
+      max-width: 1230px;
+      padding: 0;
+      margin: 0 auto;
+      flex: flex;
+      flex-direction: row;
+      padding: 0; }
+      @media screen and (max-width: 780px) {
+        footer .row {
+          display: flex;
+          flex-direction: column;
+          padding: 0 56px 0 20px; } }
+      footer .row .ul-footer {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        footer .row .ul-footer li {
+          margin-top: 15px;
+          text-align: left; }
+          footer .row .ul-footer li span.live_chat {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            cursor: pointer; }
+          footer .row .ul-footer li a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            cursor: pointer; }
+            footer .row .ul-footer li a .cookunity-app-store {
+              max-width: 119.66px;
+              margin-top: 36px; }
+              @media screen and (max-width: 780px) {
+                footer .row .ul-footer li a .cookunity-app-store {
+                  max-width: 117.92px;
+                  margin-top: 26px; } }
+  
+  

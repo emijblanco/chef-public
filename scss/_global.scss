@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: 10vh;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  border: solid;
+}
+
+.brand {
+  height: 27px;
+  width: 150px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+}
+
+.cheff {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  justify-content: space-around;
+  border: solid; 
+}
+
+.sub-prueba {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.chef-pic {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: 7%;
+}
+
+.box-1 {
+  margin: 5%;
+ 
+}
